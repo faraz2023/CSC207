@@ -1,0 +1,73 @@
+Wed Aug 08 18:22:45 EDT 2018  Incorrect User Name was inputted
+Wed Aug 08 18:22:46 EDT 2018  Incorrect User Name was inputted
+Wed Aug 08 18:22:50 EDT 2018  New User f Created
+Wed Aug 08 18:22:55 EDT 2018  f successfully logs in
+Wed Aug 08 18:23:06 EDT 2018  $20 added to cardID: 100002
+Wed Aug 08 18:23:19 EDT 2018  $20 added to cardID: 100002
+Wed Aug 08 18:23:57 EDT 2018  f gifted $100 to HAL@mail.com
+Wed Aug 08 18:24:07 EDT 2018  HAL@mail.com successfully logs in
+Wed Aug 08 18:24:17 EDT 2018  f successfully logs in
+Wed Aug 08 18:24:42 EDT 2018  f successfully logs in
+Wed Aug 08 18:25:03 EDT 2018  This card is invalid.
+Wed Aug 08 18:25:05 EDT 2018  This card is invalid.
+Wed Aug 08 18:25:08 EDT 2018  This card is invalid.
+Wed Aug 08 18:25:10 EDT 2018  This card is invalid.
+Wed Aug 08 18:25:10 EDT 2018  This card is invalid.
+Wed Aug 08 18:25:12 EDT 2018  This card is invalid.
+Wed Aug 08 18:26:37 EDT 2018  This card is invalid.
+Wed Aug 08 18:26:38 EDT 2018  This card is invalid.
+Wed Aug 08 18:26:38 EDT 2018  This card is invalid.
+Wed Aug 08 18:26:38 EDT 2018  This card is invalid.
+Wed Aug 08 18:26:42 EDT 2018  First Tap for: 100002
+Wed Aug 08 18:26:42 EDT 2018  Card ID: 100002, Balance: 59.0 enters ID: 1000 @ ossington
+Wed Aug 08 18:26:45 EDT 2018  Card ID: 100002, Balance: 59.0 exits ID: 1001 @ ossington
+Wed Aug 08 18:26:46 EDT 2018  Card ID: 100002, Balance: 53.0 exits ID: 1001 @ ossington
+Wed Aug 08 18:26:46 EDT 2018  This card machine is invalid.
+Wed Aug 08 18:26:47 EDT 2018  Card ID: 100002, Balance: 47.0 exits ID: 1001 @ ossington
+Wed Aug 08 18:26:47 EDT 2018  Card ID: 100002, Balance: 41.0 exits ID: 1001 @ ossington
+Wed Aug 08 18:26:53 EDT 2018  f successfully logs in
+Wed Aug 08 18:27:37 EDT 2018  Card ID: 100002, Balance: 41.0 enters ID: 1000 @ ossington
+Wed Aug 08 18:27:40 EDT 2018  Card ID: 100002, Balance: 41.0 exits ID: 1001 @ ossington
+Wed Aug 08 18:27:44 EDT 2018  f successfully logs in
+Wed Aug 08 19:15:19 EDT 2018  Sai@gmail.com Login Successful
+Wed Aug 08 19:15:24 EDT 2018  Total Revenue for the current Month: 18.0
+Wed Aug 08 19:15:32 EDT 2018  Total Revenue for the current Month: 18.0
+Wed Aug 08 19:15:49 EDT 2018  Total Revenue for the current Month: 18.0
+Wed Aug 08 19:16:04 EDT 2018  Total Revenue for the current Month: 18.0
+Wed Aug 08 19:16:25 EDT 2018  Total Revenue for the current Month: 18.0
+Wed Aug 08 19:16:39 EDT 2018  Total Revenue for the current Month: 18.0
+Wed Aug 08 19:16:43 EDT 2018  Total Revenue for the current Month: 18.0
+Wed Aug 08 19:16:53 EDT 2018  Total Revenue for the current Month: 18.0
+Wed Aug 08 19:20:24 EDT 2018  f successfully logs in
+Wed Aug 08 19:21:07 EDT 2018  Name for user f, f changed successfully
+Wed Aug 08 19:21:15 EDT 2018  Incorrect Password was inputted
+Wed Aug 08 19:21:19 EDT 2018  f successfully logs in
+Wed Aug 08 19:21:35 EDT 2018  Name for user f, f changed successfully
+Wed Aug 08 19:21:40 EDT 2018  Incorrect Password was inputted
+Wed Aug 08 19:21:41 EDT 2018  Incorrect Password was inputted
+Wed Aug 08 19:24:29 EDT 2018  Sai@gmail.com Login Successful
+Wed Aug 08 19:25:37 EDT 2018  Sai@gmail.com Login Successful
+Wed Aug 08 19:26:11 EDT 2018  Sai@gmail.com Login Successful
+Wed Aug 08 19:26:53 EDT 2018  Sai@gmail.com Login Successful
+Wed Aug 08 19:28:09 EDT 2018  Sai@gmail.com Login Successful
+Wed Aug 08 19:30:18 EDT 2018  Sai@gmail.com Login Successful
+Wed Aug 08 19:30:27 EDT 2018  Incorrect Password was inputted
+Wed Aug 08 19:30:28 EDT 2018  Incorrect Password was inputted
+Wed Aug 08 19:30:32 EDT 2018  Incorrect Password was inputted
+Wed Aug 08 19:30:33 EDT 2018  Incorrect Password was inputted
+Wed Aug 08 19:30:33 EDT 2018  Incorrect Password was inputted
+Wed Aug 08 19:30:55 EDT 2018  Sai@gmail.com Login Successful
+Wed Aug 08 19:31:10 EDT 2018  Incorrect Password was inputted
+Wed Aug 08 19:31:10 EDT 2018  Incorrect Password was inputted
+Wed Aug 08 19:31:13 EDT 2018  Incorrect Password was inputted
+Wed Aug 08 19:31:13 EDT 2018  Incorrect Password was inputted
+Wed Aug 08 19:31:13 EDT 2018  Incorrect Password was inputted
+Wed Aug 08 19:31:13 EDT 2018  Incorrect Password was inputted
+Wed Aug 08 19:31:14 EDT 2018  Incorrect Password was inputted
+Wed Aug 08 19:31:14 EDT 2018  Incorrect Password was inputted
+Wed Aug 08 20:20:50 EDT 2018  HAL@mail.com successfully logs in
+Thu Aug 09 22:03:06 EDT 2018  New User faraz@mail.com Created
+Thu Aug 09 22:03:13 EDT 2018  faraz@mail.com successfully logs in
+Thu Aug 09 22:03:33 EDT 2018  Sai@gmail.com Login Successful
+Sat Aug 11 21:08:03 EDT 2018  New User sherry@mail.com Created
+Sat Aug 11 21:08:19 EDT 2018  sherry@mail.com successfully logs in

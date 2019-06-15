@@ -1,0 +1,40 @@
+
+==Faraz==
+1.wrote the javadocs for the userSide and the GeneralControllerScreen and Controller helper
+2.created the gifting system on the backend.
+3.set up the pass word capability for the cardHolder
+4.Made the GUI controllers for the userPackage.
+5. added the suspension for cards
+6. added the banning a cardholder possiblity
+7. the serialization for the GUI (the software saves the transitSystem before closing and opens it upon oppening)
+8. refactored the gui folders
+9. created the general controller class and made all other screens extending it
+
+==Yatharth==
+Created and implements User Stats screen and graphs
+Created and implemented User Screens like ViewTripHistory
+Worked on Tap Screen
+Help with Admin Stats and Login
+Debugging
+
+==Sai Vinay=
+Worked with css and fxml files.
+Helped implement gift features.
+Created classes to switch screens etc.
+Helped with logging slightly.
+Helped with multiple controllers.
+DID OTHER STUFF BUT NO TIME TO WRITE>
+SAME WITH GUY ABOVE,.
+
+
+==Aleashea==
+Implemented a logger.
+Made the Transit System Serializible. 
+Implemented a class called TransitSystemStart that reads in the serialized transit system or builds our Transit System.
+Set up the methods and buttons for Admin User Change Info Screen and Controller.
+Set up the login methods and buttons for Admin User Login and Admin User Login Controller.
+Extended the Admin User class for added password functionality.
+Extended the TransitSystem Interactions for Admin Side Methods
+Created and implemented AdminStatistics Screen and Admin Statistics Controller
+Created the methods and graphs associated with AdminStatistics Scene.
+
