@@ -1,0 +1,449 @@
+#########
+# Step 1
+
+Code affected: none
+
+Created this file.
+#########
+# Step 2
+
+Code affected: none
+
+Added the starter code, created the project.
+########
+# Step 3
+
+code affected: Wind. js
+
+Minor changes in WindBlowing if statment
+########
+# Step 4
+
+Code Affected: FarmThing.java
+
+Created the parent class file/class FarmThing.java
+Design Smell Solved: The Abstraction of Human in the initial version was an instance of Multifacted Abstraction. The Human class should not be responsible for the farm table
+Design Smell Solved: Most the classes in the initial desgin (e.g. Chicken, Animal Manure, etc.) should have been placed in a hierarchy under FarmThing-> Animal. Solved the Unfactored Hierarchy. 
+########
+# Step 5
+
+Code Affected:FarmThing.java
+
+added setter/getter methods
+Class Level Code Smell: Innapropriate intimacy of other animal classes with Human is now solved. The are not anymore depend on Human to figure out their location. Just like real life!
+Class Level Code Smell: The tables in Human were Oraphan Variables. They did not belong to Human but they were there. 
+Method Level Code Smell Solved: Inappropriate Identifiers. by changing names such as "a" and "b", "hereC", "hereR" into "x" and "y" it is now much easier to fix and debug the code. 
+########
+# Step 6
+
+Code Affected:AnimalManure
+
+In this commit we changed the name the manure class to AnimalManure and replaced the constractor with an appropriate one
+########
+# Step 7
+
+Code Affected: AnimalManure/FarmThing
+
+moved draw methods fromo AnimalManure to FarmThing (still to be worked on)
+Application-Level Code Smell: methods such as draw(), drawString(), reverseAppearance(), move() are duplicated throughout the initial desing. Solved the Smell by moving those method upper in the Hierarchy. 
+########
+# Step 8
+
+Code Affected: AnimalFood/Farmthing
+
+Deleted the inhereted attributes from AnimalFood adn made it so that the class extends FarmThing
+########
+# Step 9
+
+Code Affected: AnimalFood/FarmThing
+
+Amended the blown methods in AnimalFood and enabled them to intract with the parent class
+Class Level Code Smell: Very Large Class. Made AnimalFood smaller. Now appropriate for its responsiblities. 
+########
+# Step 10
+
+Code Affected: Cow/Chicken/Pig/Animal
+
+Created the class Animal which extends FarmThing. Moved reverseAppearance to this class
+Application Level Code Smell Solved: Duplicated Code
+########
+# Step 11
+
+Code Affected: Animal
+
+added constructors to the class Animal
+########
+# Step 12
+
+Code Affected:Cow/Chicken/Pig/Animal
+
+extended Animal by Cow/Chicken/Pig. Moved turnAround method into Animal Class
+########
+# Step 13
+
+Code Affected:Cow/Chicken/Pig/Animal
+
+
+moved move method into Animal, created abstract method clearStomach in Animal
+
+########
+# Step 14
+
+Code Affected: Cow
+
+Amended the constructor
+########
+# Step 15
+
+Code Affected: Chicken
+
+Amendements in Chicken
+########
+# Step 16
+
+Code Affected: Pig
+
+making the Pig working better
+########
+# Step 17
+
+Code Affected: Pig
+
+Amended clearStoamch method in Pig
+########
+# Step 18
+
+Code Affected: Pig/Chicken/Cow
+
+Appropriate clearStomach methods in each class
+########
+# Step 19
+
+Code Affected: Egg
+
+Egg is now properly extends FarmThing
+########
+# Step 20
+
+
+Code Affected: Cow/Chicken/Pig
+
+Classes Cow/Chicken/Pig are now interacting with their parent, Animal without any errors
+########
+# Step 21
+
+Code Affected: Animal/FarmThing
+
+moved reverseAppearance from Animal to FarmThing
+Application Level Code Smell Solved: the method reverseAppearnce() caused exceptions being thrown around the place. because the method was everywhere it caused Shotgun Surgery. Solved the issue by moving the relevent methods higher in the hierarcy. 
+Design Smell Solved: Unexploited Encapsulation. The classes in the initial version each had their own ReverseAppearance. By moving it to the FarmTHing, now there is much much less duplicated code. 
+########
+# Step 22
+
+Code Affected:Main
+
+amended drawShapes in Main so it works much better with inheritance
+########
+# Step 23
+
+Code Affected:Human
+
+Amended the vertical movement in Human
+Method Level Code Smell notice but not solved: move() in Human is an Excessively Long method. It should be breaked down into smaller methods, making it easier to deal with the logic and debuggin it. 
+########
+# Step 24
+
+Code Affected: Main
+
+added stylistic amendmendt to class Main
+########
+# Step 25
+
+Code Affected: Main/AnimalFood
+########
+# Step 26
+
+Code Affected: Human
+
+dropfood of Human cannot now ovverride Animals of the Farm
+Class Level Code Smell noticed, but not solved: Cyclomatic Complexity in the way dropFood works. It should be break down to different chekcer methods to make the code more readable and fixable. 
+########
+# Step 27
+
+Code Affected: FarmThing
+
+Added functionality to FarmThing, the appearance is by defualt now "".
+Design Smell Noticed, but not solved: The FarmTHing is Missing Abstraction. The size of the myFarmThings should be declared with variables and not primitive int. 
+Class Level Code Smell notice but not Solved: Excessive use of literals in the way the FarmTHing tables are made. the size should be indicated by variables and not literals. 
+########
+
+# Step 28
+
+Code Affected: Animal/Cow/Chicken/Pig
+
+clearStomach() now does not override the map if there is an animal laying there- clearStomach() now returns void
+########
+# Step 29
+
+Code Affected: Cancer
+
+Animal Cancer has been added to the project. (you better NOT release this animal)
+########
+# Step 30
+
+Code Affected: note.txt
+
+A2 checkpoint
+########
+# Step 31
+
+Code Affected: Human
+
+Adding the final touches. dropFood() in Human now works properly
+########
+# Step 32
+
+Code Affected: Human
+
+Adding the final touches. dropFood() in Human now works properly
+########
+# Step 33
+
+Code Affected: Cow/Chicken/Cow
+
+Final touches with clear stomach
+########
+# Step 34
+
+Code Affected: Egg/Chicken
+
+Moved anEggisHere from Chicken to Egg
+########
+# Step 35
+
+Code Affected: ./src
+
+Finalized the javadocs
+########
+# Step 36
+
+Code Affected: Cancer
+
+the added functionality is an animal named Cancer. it inherits all FarmThing and Animal Methods and it has a unique way of moving on its own
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+########
+# Step 
+
+Code Affected:
+
